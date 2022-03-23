@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./tailwind.less";
+@import "./theme.less";
+
+.pri-font {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+
+#root {
+  height: 100%;
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.logo {
+  height: 31px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/** Custom scroll**/
+.custom-scroll::-webkit-scrollbar {
+  background-color: #eaeaea;
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: #eaeaea;
+}
+
+.custom-scroll::-webkit-scrollbar-track:hover {
+  background-color: #eaeaea;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 12px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #ddd;
+}
+
+.custom-scroll::-webkit-scrollbar-button {
+  display: none;
+}
+/** Custom scroll**/
+
+/** transparent scroll**/
+.transparent-scroll::-webkit-scrollbar {
+  background-color: transparent;
+  width: 8px;
+  height: 8px;
+}
+
+.transparent-scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.transparent-scroll::-webkit-scrollbar-track:hover {
+  background-color: transparent;
+}
+
+.transparent-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+}
+
+.transparent-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.transparent-scroll::-webkit-scrollbar-button {
+  display: none;
+}
+/** Custom scroll**/
